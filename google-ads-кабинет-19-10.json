@@ -1,0 +1,83 @@
+{
+ "смок": "fundacja",
+ "кампания": "24322205742",
+ "снято": "19.10.2026, Google Ads API, «Смоки» (только чтение)",
+ "фразы": [
+  {
+   "группа": "Группа объявлений 1",
+   "фраза": "fundacja rodzinna księgowość",
+   "соответствие": "PHRASE",
+   "состояние": "ENABLED"
+  },
+  {
+   "группа": "Группа объявлений 1",
+   "фраза": "księgowość fundacji rodzinnej",
+   "соответствие": "PHRASE",
+   "состояние": "ENABLED"
+  },
+  {
+   "группа": "Группа объявлений 1",
+   "фраза": "cit 8fr",
+   "соответствие": "PHRASE",
+   "состояние": "ENABLED"
+  }
+ ],
+ "минус_слова_группы": [],
+ "минус_слова_кампании": [
+  {
+   "фраза": "kurs",
+   "соответствие": "BROAD"
+  },
+  {
+   "фраза": "praca",
+   "соответствие": "BROAD"
+  },
+  {
+   "фраза": "oferty pracy",
+   "соответствие": "BROAD"
+  },
+  {
+   "фраза": "darmowe",
+   "соответствие": "BROAD"
+  },
+  {
+   "фраза": "za darmo",
+   "соответствие": "BROAD"
+  },
+  {
+   "фраза": "wzór",
+   "соответствие": "BROAD"
+  },
+  {
+   "фраза": "szkolenie",
+   "соответствие": "BROAD"
+  },
+  {
+   "фраза": "pobierz",
+   "соответствие": "BROAD"
+  }
+ ],
+ "объявления": [
+  {
+   "группа": "Группа объявлений 1",
+   "состояние": "ENABLED",
+   "ссылки": [
+    "https://fundacja.dokuwell.com/?utm_source=google&utm_medium=cpc&utm_campaign=fundacja"
+   ],
+   "заголовки": [
+    "Fundacja rodzinna: świadczenia",
+    "Podatek 15% od świadczenia",
+    "Przypomnienie przed 20. dniem",
+    "Zestawienie do CIT-8FR",
+    "Księgowość fundacji rodzinnej",
+    "Obok Twojego biura",
+    "Świadczenia pod kontrolą"
+   ],
+   "описания": [
+    "Wpisz świadczenie albo wgraj wyciąg — od razu widzisz podatek 15 % od wypłaty.",
+    "Przypomnienie i dane do przelewu przed 20. dniem miesiąca po wypłacie świadczenia.",
+    "Świadczenia roku w układzie części C CIT-8FR — dla Twojego biura rachunkowego."
+   ]
+  }
+ ]
+}
