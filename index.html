@@ -15,6 +15,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <meta name="description" content="Rejestr świadczeń dla beneficjentów fundacji rodzinnej: podatek 15 %, przypomnienie przed 20. dniem miesiąca i dane do CIT-8FR.">
 <link rel="icon" href="favicon.svg">
 <link rel="stylesheet" href="style.css">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="variant.css">
 <script src="smoke.js" defer></script>
 <!-- faq-jsonld:start -->
 <script type="application/ld+json">
@@ -65,59 +69,88 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
-<header><div class="wrap">
-  <div class="logo"><a href="index.html" data-ev="click_logo_home">Świadczenia Fundacji</a></div>
-  <nav class="top"><a href="#jak" data-ev="click_nav_jak">Jak to działa</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
+<header><div class="shell">
+  <a class="home" href="index.html" data-ev="click_logo_home">Świadczenia Fundacji</a>
+  <nav><a href="#jak" data-ev="click_nav_jak">Jak to działa</a><a href="price.html" data-ev="click_nav_cena">Cena</a><a href="#start" data-ev="click_nav_start">Start</a></nav>
 </div></header>
 
-<div class="wrap">
-  <div class="hero">
-    <h1>Świadczenia dla beneficjentów i podatek 15 % — pod kontrolą co miesiąc</h1>
-    <p class="sub">Wpisz świadczenie albo wgraj wyciąg — liczymy podatek 15 %, przypominamy przed 20. dniem następnego miesiąca, dajemy dane do przelewu i zestawienie do części C CIT-8FR. Obok Twojego biura rachunkowego, nie zamiast niego.</p>
-    <a class="cta" href="price.html" data-ev="cta_click">Tego potrzebuję</a>
-    <p class="cta-note">Usługa jeszcze nie działa · Strona nie przyjmuje płatności</p>
-  </div>
+<main class="shell">
+  <section class="split">
+    <div class="stack">
+      <p class="meta rise"><span class="dot"></span> Obok Twojego biura rachunkowego</p>
+      <h1 class="rise" style="--i:1">Świadczenia dla beneficjentów i podatek 15 %&nbsp;<span class="soft">— pod kontrolą co miesiąc</span></h1>
+      <p class="rise" style="--i:2">Wpisz świadczenie albo wgraj wyciąg — liczymy podatek 15 %, przypominamy przed 20. dniem następnego miesiąca, dajemy dane do przelewu i zestawienie do części C CIT-8FR. Obok Twojego biura rachunkowego, nie zamiast niego.</p>
+      <a class="button rise" style="--i:3" href="price.html" data-ev="cta_click">Tego potrzebuję</a>
+      <p class="meta rise" style="--i:4">Usługa jeszcze nie działa · Strona nie przyjmuje płatności</p>
+    </div>
+    <figure class="window rise" style="--i:2"><svg aria-hidden="true" focusable="false" class="shot" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 800"><rect width="1200" height="800" fill="#eef2f7" /><rect x="80" y="80" width="1040" height="640" rx="24" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="165" font-size="40" font-weight="600" fill="#0a1524">Świadczenia</text><line x1="120" y1="205" x2="1080" y2="205" stroke="#dde2ea" stroke-width="3" /><rect x="120" y="250" width="48" height="48" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><text x="196" y="284" font-size="32" font-weight="600" fill="#0a1524">podatek</text><rect x="120" y="360" width="48" height="48" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><text x="196" y="394" font-size="32" font-weight="600" fill="#0a1524">CIT-8FR</text><rect x="120" y="470" width="48" height="48" rx="10" fill="#dfe8f7" stroke="#dde2ea" stroke-width="2" /><text x="196" y="504" font-size="32" font-weight="600" fill="#0a1524">wyciąg</text><rect x="720" y="250" width="360" height="410" rx="20" fill="#dfe8f7" /><text x="748" y="310" font-size="32" font-weight="600" fill="#0a1524">podatek</text><rect x="748" y="470" width="52" height="150" rx="8" fill="#ffffff" stroke="#b9c3d2" stroke-width="2" /><rect x="826" y="410" width="52" height="210" rx="8" fill="#ffffff" stroke="#b9c3d2" stroke-width="2" /><rect x="904" y="510" width="52" height="110" rx="8" fill="#12397a" /><rect x="982" y="440" width="52" height="180" rx="8" fill="#ffffff" stroke="#b9c3d2" stroke-width="2" /></svg></figure>
+    <dl class="facts">
+      <div><dt>Fundacja</dt><dd>Fundacja rodzinna</dd></div>
+      <div><dt>Podatek</dt><dd>Podatek 15 %</dd></div>
+      <div><dt>Wyciąg</dt><dd>Wgrywa wyciąg bankowy</dd></div>
+      <div><dt>Usługa</dt><dd>Jeszcze nie działa</dd></div>
+    </dl>
+  </section>
 
   <section id="jak" data-view="features_view">
-    <h2>Co dostajesz</h2>
-    <div class="grid">
-      <div class="card"><b>Podatek od każdego świadczenia</b><span>Wpisujesz świadczenie albo wgrywasz wyciąg — widzisz podatek 15 % od razu, a nie po zamknięciu miesiąca w biurze.</span><br><a class="btn" href="price.html" data-ev="feature_podatek">Tego potrzebuję</a></div>
-      <div class="card"><b>Przypomnienie przed 20. dniem</b><span>Podatek od świadczenia płaci się do 20. dnia miesiąca następującego po miesiącu wypłaty — przypomnienie i dane do przelewu przychodzą wcześniej.</span><br><a class="btn" href="price.html" data-ev="feature_przypomnienie">Tego potrzebuję</a></div>
-      <div class="card"><b>Zestawienie do CIT-8FR</b><span>Świadczenia roku w układzie części C CIT-8FR — dla Twojego biura rachunkowego, mniej korespondencji przy każdej wypłacie.</span><br><a class="btn" href="price.html" data-ev="feature_cit8fr">Tego potrzebuję</a></div>
+    <div class="split">
+      <div class="stack"><h2>Co dostajesz</h2></div>
+      <p><a class="button" href="price.html" data-ev="click_cena_after_features">Cena</a></p>
+    <p>Księgi rachunkowe, sprawozdanie finansowe i badanie biegłego zostają w Twoim biurze rachunkowym.</p>
     </div>
-<p><a class="cta" href="price.html" data-ev="click_cena_after_features">Cena</a></p>
-    <p class="fine">Księgi rachunkowe, sprawozdanie finansowe i badanie biegłego zostają w Twoim biurze rachunkowym.</p>
+    <div class="bento">
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="50" width="660" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="130" font-size="36" font-weight="600" fill="#0a1524">podatek 15 %</text><line x1="140" y1="470" x2="660" y2="470" stroke="#dde2ea" stroke-width="3" /><rect x="150" y="350" width="80" height="120" rx="8" fill="#12397a" /><rect x="280" y="250" width="80" height="220" rx="8" fill="#dfe8f7" stroke="#b9c3d2" stroke-width="2" /><rect x="410" y="310" width="80" height="160" rx="8" fill="#dfe8f7" stroke="#b9c3d2" stroke-width="2" /><rect x="540" y="380" width="80" height="90" rx="8" fill="#dfe8f7" stroke="#b9c3d2" stroke-width="2" /></svg></div>
+        <h3>Podatek od każdego świadczenia</h3><p>Wpisujesz świadczenie albo wgrywasz wyciąg — widzisz podatek 15 % od razu, a nie po zamknięciu miesiąca w biurze.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_podatek">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="70" y="50" width="660" height="500" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="120" y="130" font-size="36" font-weight="600" fill="#0a1524">20. dniem</text><rect x="130" y="200" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="270" y="200" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="410" y="200" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="550" y="200" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="130" y="300" width="110" height="72" rx="10" fill="#12397a" /><rect x="270" y="300" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="410" y="300" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="550" y="300" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="130" y="400" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="270" y="400" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="410" y="400" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /><rect x="550" y="400" width="110" height="72" rx="10" fill="#ffffff" stroke="#dde2ea" stroke-width="2" /></svg></div>
+        <h3>Przypomnienie przed 20. dniem</h3><p>Podatek od świadczenia płaci się do 20. dnia miesiąca następującego po miesiącu wypłaty — przypomnienie i dane do przelewu przychodzą wcześniej.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_przypomnienie">Tego potrzebuję</a>
+      </article>
+      <article class="tile stack reveal">
+        <div class="art"><svg aria-hidden="true" focusable="false" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 600"><rect width="800" height="600" fill="#eef2f7" /><rect x="60" y="48" width="680" height="504" rx="22" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><text x="100" y="120" font-size="32" font-weight="600" fill="#0a1524">części C</text><rect x="100" y="180" width="200" height="300" rx="14" fill="#ffffff" stroke="#dde2ea" stroke-width="3" /><rect x="500" y="180" width="200" height="300" rx="14" fill="#dfe8f7" stroke="#dde2ea" stroke-width="3" /><path d="M320 330 H470" fill="none" stroke="#12397a" stroke-width="6" /><polygon points="470,316 498,330 470,344" fill="#12397a" /><rect x="124" y="220" width="150" height="20" rx="6" fill="#dde2ea" /><rect x="124" y="260" width="110" height="20" rx="6" fill="#b9c3d2" /><rect x="124" y="300" width="140" height="20" rx="6" fill="#dde2ea" /><rect x="524" y="220" width="150" height="20" rx="6" fill="#ffffff" /><rect x="524" y="260" width="90" height="20" rx="6" fill="#b9c3d2" /></svg></div>
+        <h3>Zestawienie do CIT-8FR</h3><p>Świadczenia roku w układzie części C CIT-8FR — dla Twojego biura rachunkowego, mniej korespondencji przy każdej wypłacie.</p>
+        <a class="button quiet" href="price.html" data-ev="feature_cit8fr">Tego potrzebuję</a>
+      </article>
+    </div>
   </section>
 
 <!-- seo-tekst:start -->
-  <section id="opis">
-    <h2>Jak to działa</h2>
-    <p>Fundacja rodzinna wypłaca beneficjentom świadczenia, a od każdego z nich należy się podatek 15 %. Wpłaca się go do 20. dnia miesiąca następującego po miesiącu wypłaty, a po zakończeniu roku świadczenia wykazuje się w części C zeznania CIT-8FR. Jeśli biuro rachunkowe dowiaduje się o wypłacie dopiero przy zamknięciu miesiąca, termin łatwo przeoczyć.</p>
+  <section id="opis" class="split flip">
+    <div class="stack"><h2>Jak to działa</h2></div>
+    <div class="stack">
+      <p>Fundacja rodzinna wypłaca beneficjentom świadczenia, a od każdego z nich należy się podatek 15 %. Wpłaca się go do 20. dnia miesiąca następującego po miesiącu wypłaty, a po zakończeniu roku świadczenia wykazuje się w części C zeznania CIT-8FR. Jeśli biuro rachunkowe dowiaduje się o wypłacie dopiero przy zamknięciu miesiąca, termin łatwo przeoczyć.</p>
     <p>Usługa prowadzi rejestr świadczeń. Fundator, członek zarządu albo biuro wpisuje świadczenie ręcznie lub wgrywa wyciąg bankowy i od razu widzi kwotę podatku od tej wypłaty. Przed 20. dniem kolejnego miesiąca przychodzi przypomnienie razem z danymi do przelewu. Na koniec roku rejestr układa się w zestawienie zgodne z częścią C CIT-8FR, które przekazujesz swojemu biuru.</p>
     <p>Zakres jest celowo wąski. Prowadzenie ksiąg, sprawozdanie finansowe i jego badanie przez biegłego rewidenta należą do biura rachunkowego; usługa działa obok niego i skraca wymianę wiadomości przy każdej wypłacie.</p>
+    </div>
   </section>
   <section id="faq">
-    <h2>Pytania i odpowiedzi</h2>
-    <h3>Do kiedy trzeba zapłacić podatek od świadczenia?</h3>
-    <p>Do 20. dnia miesiąca następującego po miesiącu wypłaty. Przypomnienie z danymi do przelewu przychodzi wcześniej.</p>
-    <h3>Czy to zastępuje doradcę podatkowego?</h3>
-    <p>Nie, bo nie jesteśmy ani biurem rachunkowym, ani doradcą podatkowym. Wyliczenie jest podpowiedzią, a za podatek i deklaracje odpowiada fundacja.</p>
-    <h3>Czy z usługi może korzystać biuro rachunkowe?</h3>
-    <p>Tak. Biuro obsługujące kilka fundacji rodzinnych prowadzi w niej rejestr świadczeń każdej z nich osobno.</p>
-    <h3>Kto korzysta z zestawienia do CIT-8FR?</h3>
-    <p>Twoje biuro rachunkowe: dostaje świadczenia całego roku w układzie części C i nie musi zbierać ich wypłata po wypłacie.</p>
+    <div class="stack"><h2>Pytania i odpowiedzi</h2></div>
+    <div class="rows">
+      <div class="split flip"><h3>Do kiedy trzeba zapłacić podatek od świadczenia?</h3><p>Do 20. dnia miesiąca następującego po miesiącu wypłaty. Przypomnienie z danymi do przelewu przychodzi wcześniej.</p></div>
+      <div class="split flip"><h3>Czy to zastępuje doradcę podatkowego?</h3><p>Nie, bo nie jesteśmy ani biurem rachunkowym, ani doradcą podatkowym. Wyliczenie jest podpowiedzią, a za podatek i deklaracje odpowiada fundacja.</p></div>
+      <div class="split flip"><h3>Czy z usługi może korzystać biuro rachunkowe?</h3><p>Tak. Biuro obsługujące kilka fundacji rodzinnych prowadzi w niej rejestr świadczeń każdej z nich osobno.</p></div>
+      <div class="split flip"><h3>Kto korzysta z zestawienia do CIT-8FR?</h3><p>Twoje biuro rachunkowe: dostaje świadczenia całego roku w układzie części C i nie musi zbierać ich wypłata po wypłacie.</p></div>
+    </div>
   </section>
 <!-- seo-tekst:end -->
-  <section id="start" data-view="start_view">
-    <h2>Dodaj pierwsze świadczenie</h2>
-    <p><label>Kim jesteś<br><select data-ev-focus="form_start" style="margin-top:6px;padding:8px;font-size:16px"><option value="">— wybierz —</option><option>Fundator</option><option>Członek zarządu</option><option>Biuro rachunkowe</option></select></label></p>
-    <a class="cta" href="price.html" data-ev="form_submit_click">Dodaj pierwsze świadczenie</a>
+  <section id="start" data-view="start_view" class="split">
+    <div class="stack">
+      <h2>Dodaj pierwsze świadczenie</h2>
+    </div>
+    <div class="tile stack">
+      <label>Kim jesteś<select data-ev-focus="form_start"><option value="">— wybierz —</option><option>Fundator</option><option>Członek zarządu</option><option>Biuro rachunkowe</option></select></label>
+      <a class="button" href="price.html" data-ev="form_submit_click">Dodaj pierwsze świadczenie</a>
+    </div>
   </section>
-</div>
+</main>
 
-<footer><div class="wrap">
+<footer><div class="shell">
+  <p><b>Świadczenia Fundacji</b></p>
   <p><a href="polityka.html" data-ev="click_legal_privacy">Polityka prywatności</a></p>
-  <p class="muted">Nie jesteśmy biurem rachunkowym ani doradcą podatkowym. Wyliczenie to podpowiedź; odpowiedzialność za podatek i deklaracje należy do fundacji.</p>
+  <p>Nie jesteśmy biurem rachunkowym ani doradcą podatkowym. Wyliczenie to podpowiedź; odpowiedzialność za podatek i deklaracje należy do fundacji.</p>
 </div></footer>
 
 </body>
